@@ -1,5 +1,6 @@
 {
  
+  "homepage": "https://desolatecoder.github.io/-React-App-responsive",
 
   "name": "reactproject",
  
@@ -108,7 +109,9 @@
 
   "start": "react-scripts start",
  
+    "predeploy":"npm run build",
 
+    "deploy":"gh-pages -d build",
    
 
   "build": "react-scripts build",
