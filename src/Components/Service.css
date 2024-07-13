@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  min-height: 100%;
+  font: 14px/1.4 sans-serif;
+
+}
+
+.grid-3 {
+  display: flex;
+  flex-flow: row wrap;
+  gap: -20px;
+}
+
+.thumb {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  overflow: hidden;
+  width: 21.333%;
+  color: #fff;
+  margin-top: 17%;
+  margin-left: 3%;
+  border-radius: 20px;
+
+}
+
+.thumb-gradient,
+.thumb-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.56) 100%);
+}
+
+.thumb-anim {
+  margin-top: auto;
+  position: relative;
+  transition: 0.5s;
+  transform: translateY(100%);
+}
+
+.thumb-title {
+  text-transform: uppercase;
+  padding: 20px;
+  transition: 0.5s;
+  transform: translateY(-100%);
+}
+
+.thumb-description {
+  padding: 10px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  flex: 1;
+}
+
+.thumb-author {
+  padding: 20px;
+  position: relative;
+}
+
+.thumb:hover .thumb-anim {
+  transform: translateY(0);
+}
+
+.thumb:hover .thumb-title {
+  transform: translateY(0%);
+}
+
+.thumb:hover .thumb-description {
+  opacity: 1;
+}
+
+.overview {
+  position: absolute;
+  top: 14%;
+  left: 3%;
+
+}
+
+.after-tech {
+  position: absolute;
+  top: 79%;
+  left: 22%;
+
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: lightgray;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+
+
+}
+
+.maincontainer {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 120%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer1 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer2 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 120%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer3 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 184%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer4 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 184%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer5 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 184%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer6 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 184%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer7 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 249%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer8 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 249%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer10 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 313%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+
+}
+
+.maincontainer9 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 313%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.thecard {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 80%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(184deg);
+}
+
+.thefront {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: white;
+  color: #000;
+}
+
+.theback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #0066b8;
+  color: white;
+  text-align: center;
+  transform: rotateY(184deg);
+}
+
+.thefront h1,
+.theback h1 {
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p,
+.theback p {
+  font-family: 'zilla slab', sans-serif;
+  margin-top: 20px;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px)  {
+  .box-wrapper{
+      width: 100%;
+  }
+  .grid-3{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    top: 60px;
+    
+  }
+  .thumb{
+    width: 100%;
+    height: inherit;
+    margin-bottom: -250px;
+    margin-top: 290px;
+  }
+ 
+ .after-tech{
+  position: relative;
+  margin-top: 150px;
+ }
+ .content{
+  height: 820px;
+  background-color: none;
+
+}
+
+ .maincontainer3,.maincontainer4,.maincontainer5,.maincontainer6{
+  
+margin-top: 900px;
+ }
+ .maincontainer6{
+  margin-top: 2060px;
+  margin-left: -175px;
+  width: 350px;
+  
+ }
+ .maincontainer5{
+  margin-top: 1790px;
+  margin-left: -70px;
+  width: 350px;
+  
+ }
+ .maincontainer4{
+  margin-top: 1520px;
+  margin-left: 25px;
+  width: 350px;
+  
+ }
+ .maincontainer3{
+  margin-top: 1250px;
+  margin-left: 120px;
+  width: 350px;
+  
+ }
+ .maincontainer8,.maincontainer7{
+  width: 350px;
+ }
+ .maincontainer10{
+  margin-top: 200px;
+ } 
+ .maincontainer10{
+  margin-top: 490px;
+  margin-left: 2px;
+  width: 350px;
+ } 
+ .maincontainer9{
+  margin-left: -15px;
+  width: 350px;
+  margin-top: 200px;
+ }
+ .maincontainer2{
+  margin-top: 515px;
+  margin-left: 45px;
+  width: 350px;
+ 
+  
+ }
+ .maincontainer1{
+  margin-top: 240px;
+  margin-left: 45px;
+  width: 350px;
+  
+  
+ }
+ .maincontainer{
+  margin-top: -30px;
+  margin-left: 45px;
+  width: 350px;
+  
+  
+ }
+  #embededfirmware{
+    position: relative;
+    margin-top: -230px;
+    margin-left: -100px;
+  }
+  #embededlinux{
+    position: relative;
+   margin-top: 1315px;
+   margin-left: -50px;
+  }
+  #prototype{
+    position: relative;
+   margin-top: 2100px;
+   margin-left: -68px;
+  }
+  
+  .maincontainer8{
+    margin-top: 270px;
+   }  
+   #embededlinux{
+    position: relative;
+   margin-top: 1290px;
+   margin-left: -60px;
+  }
+ #cardbottom{
+  margin-bottom: -60px;
+ }
+ .name1{
+  position: relative;
+  font-size: 10px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+ }
+ .name2{
+  position: relative;
+  font-size: 10px;
+  margin-top: 1260px;
+  width: 100%;
+  text-align: center;
+  
+ }
+ .name3{
+  position: relative;
+  font-size: 10px;
+  margin-top: 1945px;
+  width: 100%;
+  margin-right: 40px;
+ }
+ .name4{
+  position: relative;
+  font-size: 10px;
+  margin-top: 2120px;
+  width: 100%;
+ text-align: center;
+ }
+ 
+ .b1,.b2,.b3,.b4{
+display: none;
+ }
+ .bgall{
+  background-color: lightgray;
+ }
+}

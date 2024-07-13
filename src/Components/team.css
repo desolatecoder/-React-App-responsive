@@ -1,0 +1,98 @@
+.section-white{
+    background: #ffff;
+    padding: 70px 0;
+}
+.team-item{
+    background: #f4f5f6;
+    text-align: center;
+    margin: 10px 0;
+    padding: 50px 20px 40px 20px ;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition :all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    position: relative;
+    top: 22%;
+    height: 88%;
+    width: 100%;
+    color: #acacac;
+
+}
+.team-item:hover{
+    background: #3956de ;
+    color: white;
+    
+}
+.team-item h3{
+    margin: 20px 0 1px 0 !important;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.section-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0066b8;
+
+}
+.section-subtitle{
+    white-space: pre-line;
+}
+.team-item:hover h3{
+    color: #ddd;
+}
+.team-info{
+    display: block;
+}
+.team-info p{
+    
+    font-style: italic;
+}
+
+
+
+.team-info::after{
+    background: #008aff ;
+    background: -webkit-linear-gradient(
+        135deg, #6802ff 0%, #985BFF 100%
+    );
+    background: -o-linear-gradient(
+        135deg, #6802ff 0%, #985BFF 100%
+    );
+    background: -moz-linear-gradient(
+        135deg, #6802ff 0%, #985BFF 100%
+    );
+    background: linear-gradient(
+        135deg, #6802ff 0%, #985BFF 100%
+    );
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 50px;
+    height: 3px;
+    margin-top: -20px;
+
+}
+.team-item img{
+   
+    padding: 6px 6px;
+    background-color: #dedede;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50% ;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .team-item{
+        position: relative;
+        top: 24%;
+    }
+    
+   
+}
+
