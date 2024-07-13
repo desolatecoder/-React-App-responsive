@@ -18,7 +18,7 @@ export default function Service() {
             </div>
             <div class="grid-3">
                 <div class="thumb">
-                    <img class="thumb-img" src="embeded.png" alt="card1" />
+                    <img class="thumb-img" src="./embeded.png" alt="card1" />
                     <div class="thumb-gradient"></div>
                     <div class="thumb-anim">
                         <h4 class="thumb-title">Embedded Firmware Development</h4>
@@ -28,7 +28,7 @@ export default function Service() {
                     <div class="thumb-author">view</div>
                 </div>
                 <div class="thumb">
-                    <img class="thumb-img" src="iot.jpg" alt="card2" />
+                    <img class="thumb-img" src="./iot.jpg" alt="card2" />
                     <div class="thumb-gradient"></div>
                     <div class="thumb-anim">
                         <h4 class="thumb-title">Connectivity & IoT Solutions</h4>
@@ -39,7 +39,7 @@ export default function Service() {
                     <div class="thumb-author">view</div>
                 </div>
                 <div class="thumb">
-                    <img class="thumb-img" src="poc.webp" alt="card3" />
+                    <img class="thumb-img" src="./poc.webp" alt="card3" />
                     <div class="thumb-gradient"></div>
                     <div class="thumb-anim">
                         <h4 class="thumb-title">PoC/Prototype Development</h4>
@@ -50,7 +50,7 @@ export default function Service() {
                     <div class="thumb-author">view</div>
                 </div>
                 <div class="thumb" id='cardbottom'>
-                    <img class="thumb-img" src="embededlinux.jpg" alt="card4" />
+                    <img class="thumb-img" src="./embededlinux.jpg" alt="card4" />
                     <div class="thumb-gradient"></div>
                     <div class="thumb-anim">
                         <h4 class="thumb-title">Embedded Linux</h4>
@@ -99,7 +99,7 @@ export default function Service() {
                                 <div class="thefront">
                                     <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
                                     <h1>Programming Languages</h1>
-                                    <img src="card1.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} />
+                                    <img src="./card1.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} />
 
                                     <p className='view'>view more</p>
                                 </div>
@@ -115,7 +115,7 @@ export default function Service() {
 
                                 <div class="thefront">
                                     <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                    <h1>Microcontrollers & Processors</h1> <img src="card2.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} /></div>
+                                    <h1>Microcontrollers & Processors</h1> <img src="./card2.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} /></div>
 
                                 <div class="theback"><p> ARM, <br /> ATMEL, <br /> STMicroelectronics</p>
                                 </div>
@@ -128,7 +128,7 @@ export default function Service() {
 
                                 <div class="thefront">
                                     <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                    <h1>Protocols</h1><img src="card3.jpg" alt="card1" style={{ width: "190px", height: "190px", marginLeft: "60px", marginTop: "-34px" }} /></div>
+                                    <h1>Protocols</h1><img src="./card3.jpg" alt="card1" style={{ width: "190px", height: "190px", marginLeft: "60px", marginTop: "-34px" }} /></div>
 
                                 <div class="theback"><p style={{ marginTop: "-8px" }}> I2C, <br /> SPI, <br /> CAN, <br /> MOBUS, <br /> USB, <br /> MIPI</p>
                                 </div>
@@ -169,7 +169,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1>Device Technology</h1><img src="card4.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-28px" }} /></div>
+                                <h1>Device Technology</h1><img src="./card4.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-28px" }} /></div>
 
                             <div class="theback"><p>  Arduino, <br />  ESP32, <br />  Raspberry Pi</p>
                             </div>
@@ -184,7 +184,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1>Protocols</h1><img src="card5.png" alt="card1" style={{ width: "150px", height: "140px", marginLeft: "70px", marginTop: "-28px" }} /></div>
+                                <h1>Protocols</h1><img src="./card5.png" alt="card1" style={{ width: "150px", height: "140px", marginLeft: "70px", marginTop: "-28px" }} /></div>
 
                             <div class="theback"><p style={{marginTop:"40px"}} >  WiFi, <br /> MQTT, <br /> HTTP, <br /> CoAP</p>
                             </div>
@@ -197,7 +197,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1> Cloud Platforms</h1><img src="card6.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} /></div>
+                                <h1> Cloud Platforms</h1><img src="./card6.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-34px" }} /></div>
 
                             <div class="theback"><p style={{ marginTop: "60px" }}>Arduino IoT Cloud, <br /> AWS IoT Core</p>
                             </div>
@@ -210,7 +210,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1>Databases</h1><img src="card7.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-28px" }} /></div>
+                                <h1>Databases</h1><img src="./card7.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-28px" }} /></div>
 
                             <div class="theback"><p style={{marginTop:"50px"}}>MongoDB, <br /> InfluxDB, <br /> Grafana</p>
                             </div>
@@ -249,7 +249,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1>PCB Tools</h1><img src="card8.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-20px" }} /></div>
+                                <h1>PCB Tools</h1><img src="./card8.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-20px" }} /></div>
 
                             <div class="theback" ><p style={{marginTop:"50px"}}>KiCAD, <br /> AutoCAD</p>
                             </div>
@@ -262,7 +262,7 @@ export default function Service() {
 
                             <div class="thefront">
                                 <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                <h1>Hardware Verification Tools</h1><img src="card9.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-30px" }} /></div>
+                                <h1>Hardware Verification Tools</h1><img src="./card9.jpg" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-30px" }} /></div>
 
                             <div class="theback"><p style={{marginTop:"60px"}} >Multimeter, <br /> Oscilloscope</p>
                             </div>
@@ -302,7 +302,7 @@ export default function Service() {
 
                                     <div class="thefront">
                                         <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                        <h1>Boot Loaders</h1><img src="card11.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-26px" }} /></div>
+                                        <h1>Boot Loaders</h1><img src="./card11.png" alt="card1" style={{ width: "150px", height: "150px", marginLeft: "70px", marginTop: "-26px" }} /></div>
 
                                     <div class="theback"><p style={{marginTop:"60px"}}>U-Boot, <br /> GRUB</p>
                                     </div>
@@ -315,7 +315,7 @@ export default function Service() {
 
                                     <div class="thefront">
                                         <div style={{ backgroundColor: "#0066b8", height: "3px" }}></div>
-                                        <h1>Operating Systems</h1><img src="card10.png" alt="card1" style={{ width: "170px", height: "150px", marginLeft: "70px", marginTop: "-3px" }} /></div>
+                                        <h1>Operating Systems</h1><img src="./card10.png" alt="card1" style={{ width: "170px", height: "150px", marginLeft: "70px", marginTop: "-3px" }} /></div>
 
                                     <div class="theback"><p > Linux, <br /> Bare Metal, <br /> FreeRTOS, <br /> Windows</p>
                                     </div>

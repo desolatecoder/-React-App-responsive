@@ -14,7 +14,7 @@ export default function Team() {
                         </div>
                         <div className="col-sm-6 col-md-4">
                             <div className="team-item">
-                                <img src="nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
+                                <img src="./nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
                                 <h3>sai Rakesh</h3> <br />
                                 <div className="team-info">
                                     <p> Cheif Executive Officer</p>
@@ -28,7 +28,7 @@ export default function Team() {
 
                         <div className="col-sm-6 col-md-4" >
                             <div className="team-item">
-                                <img src="nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
+                                <img src="./nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
                                 <h3>Name</h3><br />
                                 <div className="team-info">
                                     <p>IoT Firmware Developer</p>
@@ -42,7 +42,7 @@ export default function Team() {
 
                         <div className="col-sm-6 col-md-4">
                             <div className="team-item">
-                                <img src="nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
+                                <img src="./nopic.jpg" alt="team member" style={{ width: "170px", height: "170px" }} />
                                 <h3>Harsha Varshab</h3>
                                 <div className="team-info">
                                     <p>job role can be added</p>

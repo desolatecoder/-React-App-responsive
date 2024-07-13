@@ -9,7 +9,7 @@ export default function Home() {
 
       <Carousel>
         <Carousel.Item>
-          <div class="bg-image"><img src={"/homes2.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
+          <div class="bg-image"><img src={"./homes2.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
           <Carousel.Caption>
             <div class="bg-text">
 
@@ -24,7 +24,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item> 
         <Carousel.Item>
-          <div class="bg-image"><img src={"/edits2.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
+          <div class="bg-image"><img src={"./edits2.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
           <Carousel.Caption>
             <div class="bg-text">
 
@@ -41,7 +41,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div class="bg-image"><img src={"/edit3.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
+          <div class="bg-image"><img src={"./edit3.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
           <Carousel.Caption>
             <div class="bg-text">
 
@@ -59,7 +59,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div class="bg-image"><img src={"/home9.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
+          <div class="bg-image"><img src={"./home9.jpg"} style={{ width: "1492px", height: "757px" }} alt="home background" /></div>
           <Carousel.Caption>
 
             <div className="four-text" style={{ textAlign: "left" }} >
@@ -71,24 +71,24 @@ export default function Home() {
                 <Link id="homebutton" className="btn btn-primary" to="/service" style={{backgroundColor:"#0066b8",height:"40px",width:"180px", marginLeft:"18s0px",borderRadius:"50px"}}> View all Services</Link>
               <div className="right">
                 <ol className="firstol" style={{ display: "flex", gap: "30px", listStyleType: "none",marginLeft:"-35px" }}>
-                  <li><img src="/atmel.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/stmicroelectronics.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/arm-26081.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/raspberry-pi.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./atmel.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./stmicroelectronics.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./arm-26081.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./raspberry-pi.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
                   <br/>
                      </ol>
                      <br />
                      <ol className="middleol" style={{ display: "flex", gap: "30px", listStyleType: "none" ,marginLeft:"-35px"}}>
-                  <li><img src="/bluetooth-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/lorawan.png" alt="icon" style={{ width: "120px", height: "80px" }} /></li>
-                  <li><img src="/MQTT.png" alt="icon" style={{ width: "100px", height: "50px",marginTop:"20px" }} /></li>
-                  <li><img src="/aws-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li><br />
+                  <li><img src="./bluetooth-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./lorawan.png" alt="icon" style={{ width: "120px", height: "80px" }} /></li>
+                  <li><img src="./MQTT.png" alt="icon" style={{ width: "100px", height: "50px",marginTop:"20px" }} /></li>
+                  <li><img src="./aws-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li><br />
                      </ol><br />
                      <ol  className="lastol" style={{ display: "flex", gap: "30px", listStyleType: "none",marginLeft:"-35px" }}>
-                  <li><img src="/linux-tux.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/c++.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
-                  <li><img src="/nodejs.png" alt="icon" style={{ width: "120px", height: "80px", marginTop:"10px" }} /></li>
-                  <li><img src="/mongodb-icon-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li><br />
+                  <li><img src="./linux-tux.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./c++.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li>
+                  <li><img src="./nodejs.png" alt="icon" style={{ width: "120px", height: "80px", marginTop:"10px" }} /></li>
+                  <li><img src="./mongodb-icon-2.svg" alt="icon" style={{ width: "100px", height: "100px" }} /></li><br />
                      </ol>
               </div>
             </div>
